@@ -9,7 +9,7 @@
 import SwiftUI
 import Combine
 
-struct AuthLogginTestView: View {
+public struct AuthLogginTestView: View {
     // MARK: - Propertiers
     @Environment(\.colorScheme) var colorScheme
     @State var actionSingup = false

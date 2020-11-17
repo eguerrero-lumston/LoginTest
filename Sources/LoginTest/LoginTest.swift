@@ -1,3 +1,3 @@
-struct LoginTest {
-    var text = "Hello, World!"
+public struct LoginTest {
+    public var text = "Hello, World!"
 }
