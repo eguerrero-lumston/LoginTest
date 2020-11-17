@@ -9,7 +9,7 @@
 import SwiftUI
 import Combine
 
-struct AuthView: View {
+struct AuthLogginTestView: View {
     // MARK: - Propertiers
     @Environment(\.colorScheme) var colorScheme
     @State var actionSingup = false
@@ -69,6 +69,6 @@ extension Color {
 
 struct AuthView_Previews: PreviewProvider {
     static var previews: some View {
-        AuthView()
+        AuthLogginTestView()
     }
 }
